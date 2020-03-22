@@ -1,4 +1,4 @@
 language: scala
 sudo: false
 
-script: "mvn gatling:test -Dgatling.simulationClass=src.test.scala.simulations.VideoGameApis -DUrl=http://localhost:8888/app/ -DUSERS=1"
+script: "mvn gatling:test -Dgatling.simulationClass=src.test.scala.simulations.MyFirstTest"
